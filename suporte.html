@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suporte | NeuroSistemas</title>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #050505;
+            --card-bg: #0f0f11;
+            --border-color: #1f1f23;
+            --text-primary: #ffffff;
+            --text-secondary: #a1a1aa;
+            --accent-color: #3b82f6;
+        }
+
+        body { 
+            font-family: 'Inter', sans-serif; 
+            background-color: var(--bg-color); 
+            color: var(--text-secondary); 
+            line-height: 1.6;
+            margin: 0; 
+            padding: 40px 20px; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container { max-width: 600px; width: 100%; }
+
+        h1 { 
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--text-primary);
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .status-bar {
+            background: #101b10;
+            color: #4ade80;
+            padding: 8px 15px;
+            border-radius: 5px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.8rem;
+            margin-bottom: 30px;
+            text-align: center;
+            border: 1px solid #162e16;
+        }
+
+        .faq-section { margin-bottom: 40px; }
+
+        .faq-item {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 15px;
+        }
+
+        .faq-item h3 {
+            color: var(--text-primary);
+            margin-top: 0;
+            font-size: 1rem;
+        }
+
+        .contact-box {
+            background: linear-gradient(135deg, #0f172a 0%, #020617 100%);
+            border: 1px solid var(--accent-color);
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .contact-box h2 { color: var(--text-primary); margin-top: 0; }
+
+        .email-link {
+            display: inline-block;
+            color: var(--accent-color);
+            font-family: 'JetBrains Mono', monospace;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 10px;
+            font-size: 1.1rem;
+        }
+
+        .back-link {
+            margin-top: 30px;
+            display: block;
+            text-align: center;
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        .back-link:hover { color: var(--text-primary); }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Centro de Suporte</h1>
+        <div class="status-bar">
+            > system.status: online | no_costs_detected
+        </div>
+
+        <div class="faq-section">
+            <div class="faq-item">
+                <h3>Não recebi o link de download. O que fazer?</h3>
+                <p>Verifique sua caixa de spam ou a aba "Promoções". O sistema da Hotmart envia o acesso instantaneamente após o cadastro.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Onde encontro o arquivo?</h3>
+                <p>O link é enviado para o e-mail cadastrado. Se não encontrar, tente realizar o cadastro novamente com um e-mail diferente.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>O guia é realmente gratuito?</h3>
+                <p>Sim. É um recurso da NeuroSistemas para ajudar profissionais analíticos a entenderem o mecanismo da procrastinação.</p>
+            </div>
+        </div>
+
+        <div class="contact-box">
+            <h2>Ainda precisa de ajuda?</h2>
+            <p>Se o seu "bug" persiste, envie um e-mail para:</p>
+            <!-- Substitua pelo seu Gmail gratuito abaixo -->
+            <a href="mailto:neurosistemas.suporte@gmail.com" class="email-link">neurosistemas.suporte@gmail.com</a>
+            <p style="font-size: 0.8rem; margin-top: 15px; opacity: 0.7;">Tempo de resposta: até 48h (GMT+9 / Japão).</p>
+        </div>
+
+        <a href="index.html" class="back-link">← Voltar para Links Oficiais</a>
+    </div>
+
+</body>
+</html>
